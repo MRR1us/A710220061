@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>NAME OF THE SITE</h1>
+        </header>
+
+        <!-- Navigation -->
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">GALLERY</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main content with image and text -->
+        <main class="main">
+            <div class="hero">
+                <img src="your-image.jpg" alt="Hero image">
+            </div>
+            <p>This is a title. Double-click to edit. This is a great place for you to add a greeting.</p>
+        </main>
+
+        <!-- Grid of three sections -->
+        <section class="grid-section">
+            <div class="grid-item">
+                <img src="image1.jpg" alt="Image 1">
+                <h2>This is a title.</h2>
+                <p>This is a paragraph. Double-click to edit. This is a paragraph. Double-click to edit.</p>
+            </div>
+            <div class="grid-item">
+                <img src="image2.jpg" alt="Image 2">
+                <h2>This is a title.</h2>
+                <p>This is a paragraph. Double-click to edit. This is a paragraph. Double-click to edit.</p>
+            </div>
+            <div class="grid-item">
+                <img src="image3.jpg" alt="Image 3">
+                <h2>This is a title.</h2>
+                <p>This is a paragraph. Double-click to edit. This is a paragraph. Double-click to edit.</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
